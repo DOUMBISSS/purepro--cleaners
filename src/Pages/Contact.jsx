@@ -1,9 +1,9 @@
 import React from 'react';
-import Footer from '../Pages/Footer';
+// import Footer from '../Pages/Footer';
 // import {Link} from 'react-router-dom';
 import Navbar from './Navbar';
 
-function Contact () {
+export default function Contact () {
             
     return (
     <div>
@@ -35,17 +35,16 @@ function Contact () {
                 </div>
                 <div className="main--contact--content--right">
                   <p>Aidez-nous à mieux comprendre vos besoins</p>
-                  <p>Adresse : Cocody Angré 7eme Tranche / Abidjan – Plateau – 01 BP 2076 Abidjan 01</p>
-                  <p>Tel : +225 07 77 88 00 82 / +225 07 89 80 08 62</p>
-                  <p> E-mail : shoppingBag@online.com</p>
-                  <p>site web : www.shoppingBag@online.com</p>
+                  <p>Adresse : Cocody Angré 7eme Tranche </p>
+                  <p>Tel : +225 07 77 88 00 82 </p>
+                  <p> E-mail : purepro@cleaners.com</p>
+                  <p>Site web : www.purepro-cleaners.ci</p>
                 </div>
             </div>
           </div>
         </div>
-        <Footer/>
+        {/* <Footer/> */}
     </div>
     );
 }
 
-export default Contact;

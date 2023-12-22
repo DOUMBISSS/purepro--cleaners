@@ -120,6 +120,13 @@ span{
   padding: 1rem;
   /* border: 1px solid gainsboro; */
 }
+.container--presentation--mb{
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  padding: 1rem;
+}
 .container--presentation--left{
   width: 50%;
   padding: 1rem;
@@ -158,6 +165,7 @@ span{
   color: white;
   background-color: #f0c14b;
   border-radius: 0.5rem;
+  margin: 1rem 0;
 }
 .part__newsletter{
   width: 100%;
@@ -259,3 +267,45 @@ justify-content: center;
   height: 100%;
   border-radius: 50%;
   }
+.desc{
+  margin: 1rem 0;
+}
+.section--business--content{
+  width: 100%;
+
+}
+.section__business__presentation{
+  width: 100%;
+  padding: 0.5rem;
+  /* border: 1px solid coral; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.section--business--description{
+  width: 100%;
+  padding: 0.5rem;
+}
+.prestations__cards{
+  width: 330px;
+  height: 500px;
+  /* border-bottom: 1px solid gainsboro;
+  border-top: 1px solid gainsboro; */
+  border: 1px solid gainsboro;
+  border-radius: 0.5rem;
+  text-align: center;
+  margin: 0.5rem;
+  background-color: white;
+}
+.prestations__price{
+  font-weight: bold;
+  color: coral;
+}
+.btn__contact{
+  padding: 0.7rem;
+  color: white;
+  border-radius: 0.5rem;
+  margin:0.5rem;
+  background-color: coral;
+}
