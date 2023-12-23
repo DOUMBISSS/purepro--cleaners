@@ -9,6 +9,9 @@ export default function Devis  () {
     <div>
         <Navbar />
         <div className="container">
+            <div className='container--devis'>
+
+            </div>
           
         </div>
         {/* <Footer/> */}

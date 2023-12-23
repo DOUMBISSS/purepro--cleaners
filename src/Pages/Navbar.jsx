@@ -21,9 +21,9 @@ function Navbar ({search,setSearch}) {
             <div className="navbar--center--content">
               <Link className='liste' to="/"><p>Accueil</p></Link>
               <Link className='liste' to="/Qui--sommes-nous" ><p>Qui sommes-nous ?</p></Link>
-              <Link className='liste' to="/Notre--actualité"><p>Actualités</p></Link>
+              {/* <Link className='liste' to="/Notre--actualité"><p>Actualités</p></Link> */}
               <Link className='liste' to="/Nos__prestations"><p>Nos prestations</p></Link>
-              <Link className='liste' to="/obtenir_devis"><p>Devis</p></Link>
+              {/* <Link className='liste' to="/obtenir_devis"><p>Devis</p></Link> */}
               <Link className='liste' to="/contactez--nous"><p>Contactez-nous</p></Link>
             </div>
             <div className='logo--resp'>

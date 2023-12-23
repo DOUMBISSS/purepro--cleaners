@@ -4,6 +4,7 @@ import 'animate.css';
 import Navbar from './Navbar';
 import { useDispatch, useSelector } from 'react-redux';
 import Marquee from "react-fast-marquee";
+import Footer from './Footer';
 
 export default function Accueil () {
     const dispatch = useDispatch()
@@ -167,6 +168,7 @@ const showCart =()=>{
             </div>
 
           </div> 
+          <Footer/>
         </div>
 
     );
