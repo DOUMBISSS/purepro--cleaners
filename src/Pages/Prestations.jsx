@@ -1,6 +1,6 @@
 import React from 'react';
-// import Footer from '../Pages/Footer';
-// import {Link} from 'react-router-dom';
+import Footer from '../Pages/Footer';
+import {Link} from 'react-router-dom';
 import Navbar from './Navbar';
 
 export default function Prestations  () {
@@ -142,7 +142,7 @@ export default function Prestations  () {
 
           </div>
         </div>
-        {/* <Footer/> */}
+        <Footer/>
     </div>
     );
 }
