@@ -14,7 +14,7 @@ export default function Presentation  () {
                     <h5 className='present--header'>Présentation de </h5>
                     <h3 className='present--title'>PurePro Cleaners</h3>
 
-                    <p className='desc'><strong>PurePro Cleaners</strong> Services est une société de nettoyage 
+                    <p className='desc'><strong>PurePro Cleaners</strong> est une société de nettoyage 
                       professionnelle spécialisée dans la prestation de services de nettoyage de qualité pour les entreprises,
                        les institutions et les particuliers en Côte d'Ivoire. Forts de notre engagement envers l'excellence, 
                        nous offrons une gamme complète de services de nettoyage pour répondre aux besoins divers de nos clients. </p>
@@ -36,11 +36,11 @@ export default function Presentation  () {
                         </p>
 
                         <p className='desc'> <strong> Assurance et Responsabilité : </strong>
-                        Votre tranquillité d'esprit est notre priorité. PurePro Cleaners est entièrement assuré, et nous assumons toute responsabilité envers nos clients. Votre confiance est notre plus grande récompense.
+                        Votre tranquillité d'esprit est notre priorité. <strong>PurePro Cleaners</strong> est entièrement assuré, et nous assumons toute responsabilité envers nos clients. Votre confiance est notre plus grande récompense.
                         </p>
 
                         <p className='desc'> <strong>Engagement envers la durabilité : </strong>
-                            PurePro Cleaners Services est dédié à la durabilité environnementale. Nous utilisons des produits de nettoyage écologiques et 
+                        <strong>PurePro Cleaners</strong> Services est dédié à la durabilité environnementale. Nous utilisons des produits de nettoyage écologiques et 
                             adoptons des pratiques respectueuses de l'environnement dans toutes nos opérations.
                             </p>
 
