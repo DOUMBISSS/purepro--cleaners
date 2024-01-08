@@ -35,7 +35,32 @@ const showCart =()=>{
 
                <Navbar/>
             <div className='main--part--container'>
-
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://img.freepik.com/photos-premium/couple-nettoyeurs-professionnels-restent-ensemble-dans-cuisine-contemporaine-detergents-maison_141188-7906.jpg?w=900" class="d-block w-100" alt="..." />
+    </div>
+    <div class="carousel-item">
+      <img src="https://img.freepik.com/photos-premium/couple-heureux-nettoyeurs-professionnels-se-reposant-dans-canape-apres-avoir-nettoye-cuisine_141188-7869.jpg?w=900" class="d-block w-100" alt="..." />
+    </div>
+    <div class="carousel-item">
+      <img src="https://img.freepik.com/photos-premium/nettoyeurs-multiculturels-heureux-regardant-camera-alors-qu-ils-se-tiennent-produits-nettoyage-au-bureau_132358-31834.jpg?w=1060" class="d-block w-100" alt="..." />
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+                </div>
             </div>
             <div className='container'>
               <div className='container--presentation'>
@@ -54,11 +79,11 @@ const showCart =()=>{
                       <p>Notre équipe est composée de professionnels du nettoyage formés et expérimentés. Nous nous assurons que 
                         notre personnel respecte des normes élevées d'éthique professionnelle, de fiabilité et de discrétion.</p>
 
-                        <Link><button className='btn__link__services'>Nos services <i class="fa-solid fa-arrow-right"></i> </button></Link>
+                        <Link to="/Qui--sommes-nous"><button className='btn__link__services'>Details <i className="fa-solid fa-arrow-right"></i> </button></Link>
                 </div>
                 <div className='container--presentation--right'>
                     <div className='container--presentation--right--box'>
-                        <img src="https://img.freepik.com/photos-premium/couple-heureux-nettoyeurs-professionnels-se-reposant-dans-canape-apres-avoir-nettoye-cuisine_141188-7869.jpg?w=900" alt="" />
+                        <img src="https://img.freepik.com/photos-premium/couple-nettoyeurs-professionnels-restent-ensemble-dans-cuisine-contemporaine-detergents-maison_141188-7906.jpg?w=900" alt="" />
                     </div>
                 </div>
               </div>
@@ -66,99 +91,93 @@ const showCart =()=>{
           </div>
 
           <div className='section--business'>
-            {/* <div className='section--business--header'>
-              <img src="https://res.cloudinary.com/glovoapp/image/fetch/f_svg,c_lpad,q_auto:low,h_80,w_117,b_transparent/https://glovoapp.com/images/corporate-container/together.svg" alt="" />
-            </div>
-          <h3 className='section--oportunity--title'>Opportunités</h3> */}
+            <h2 className='business--header'>Quelques offres de nos prestations </h2>
               <div className='section__business__container'>
-                <div className='business__cards'>
+              <div className='prestations__cards'>
                  <div className='business__cards__images'>
-                 <img src="https://img.freepik.com/vecteurs-libre/service-menage-menage_18591-52069.jpg?t=st=1703114901~exp=1703115501~hmac=8bc6e97bceabd4737db0cc4fabb36c385460e98e8a222ded8db57a8a0940ed30" alt="" />
+                 <img src="https://img.freepik.com/photos-gratuite/femme-afro-tenant-seau-articles-nettoyage_58466-11246.jpg?w=900&t=st=1704670107~exp=1704670707~hmac=929e46f2fc639fafd1277c0cf95ef0996b4d7cc7ca033b680c48bba9c5de7ae4" alt="" />
                  </div>
                  <h3 className='business__cards__title'>Nettoyage Grand ménage</h3>
-                 <p>C'est vous le chef ! Livrez avec <strong>Délices House</strong> pour gagner des revenus compétitifs en toute flexibilité et liberté.</p>
-                 <button className='btn__join'>Rejoignez-nous</button>
+                 <ul>
+                    <li>Nettoyage fenetres/stores/murs</li>
+                    <li>Nettoyage complet cuisine/chambres</li>
+                    <li>Nettoyage meubles/locaux</li>
+                    <li>Nettoyages des surfaces/dépoussierage</li>
+                 </ul>
+                 <p>A partir de <strong className='prestations__price'>100 000 FCFA/prestations</strong></p>
+                 <button className='btn__contact'>Contactez-nous</button>
                 </div>
 
-                <div className='business__cards'>
+                <div className='prestations__cards'>
                  <div className='business__cards__images'>
-                 <img src="https://img.freepik.com/vecteurs-libre/service-nettoyage-professionnel-concept-couleur-isometrique-quatre-nettoyeurs-nettoient-fenetres-essuient-poussiere-aspirent-sols-dans-illustration-appartement-du-client_1284-65943.jpg?w=826&t=st=1703115112~exp=1703115712~hmac=54d3f8bf1d7efe6080e2921b8e62b592d726b36f679594c4e4a7694cd7588ee9" alt="" />
-                 </div>
-                 <h3 className='business__cards__title'>Nettoyage Bureau</h3>
-                 <p>C'est vous le chef ! Livrez avec <strong>Délices House</strong> pour gagner des revenus compétitifs en toute flexibilité et liberté.</p>
-                 <button className='btn__join'>Rejoignez-nous</button>
-                </div>
-
-                <div className='business__cards'>
-                 <div className='business__cards__images'>
-                 <img src="https://img.freepik.com/vecteurs-libre/nettoyant-produits-entretien_18591-52060.jpg?t=st=1703114901~exp=1703115501~hmac=9f73b0b831d1aa27a14c63ce01e4b561b597d76e2baca404da9f6b49636244f7" alt="" />
-                 </div>
-                 <h3 className='business__cards__title'>Nettoyage Résidentiel</h3>
-                 <p>C'est vous le chef ! Livrez avec <strong>Délices House</strong> pour gagner des revenus compétitifs en toute flexibilité et liberté.</p>
-                 <button className='btn__join'>Rejoignez-nous</button>
-                </div>
-
-                <div className='business__cards'>
-                 <div className='business__cards__images'>
-                 <img src="https://img.freepik.com/vecteurs-libre/service-nettoyage-isometrique-ensemble-images-isolees-produits-nettoyants-detergents-aspirateurs-personnes-uniforme_1284-32172.jpg?w=740&t=st=1703115721~exp=1703116321~hmac=08656ff564b3f3902abfa5513b00a628ff7cb1e03642f39b8cfe6c98dab82743" alt="" />
+                 <img src="https://img.freepik.com/photos-gratuite/sourire-tenant-pointe-vers-seau-outils-nettoyage-jeune-homme-nettoyeur-afro-americain-uniforme-gants-isoles-fond-vert_141793-135154.jpg?w=900&t=st=1704670847~exp=1704671447~hmac=3489c62a4bff1c7551d78dcd0d202b408ee367f2513effa69aef59bf3678edcd" alt="" />
                  </div>
                  <h3 className='business__cards__title'>Nettoyage Standard</h3>
-                 <p>C'est vous le chef ! Livrez avec <strong>Délices House</strong> pour gagner des revenus compétitifs en toute flexibilité et liberté.</p>
-                 <button className='btn__join'>Rejoignez-nous</button>
+                 <ul>
+                    <li>Nettoyage régulier de bureau,des aires communes et des sanitaires</li>
+                    <li>Nettoyage cuisine/chambres/meubles</li>
+                    <li>Nettoyage meubles/locaux</li>
+                    <li>Nettoyages des surfaces/dépoussierage</li>
+                 </ul>
+                 <p>A partir de <strong className='prestations__price'>120 000 FCFA/Mois</strong></p>
+                 <button className='btn__contact'>Contactez-nous</button>
                 </div>
 
-                <div className='business__cards'>
+                <div className='prestations__cards'>
                  <div className='business__cards__images'>
-                 <img src="https://img.freepik.com/vecteurs-libre/sertie-quatre-compositions-isolees-nettoyeurs-gribouillent-personnages-humains-appareils-professionnels-detergents-chimiques-illustration-vectorielle_1284-68543.jpg?w=996&t=st=1703115067~exp=1703115667~hmac=9046d8868ce5fb0b0912628602c1460ed790bfbf692fa62bd3b7805a9a164200" alt="" />
+                 <img src="https://img.freepik.com/photos-premium/femme-afro-americaine-aux-cheveux-tresses-portant-tablier-tenant-produits-nettoyage-souriant-heureux-faisant-signe-ok-main-yeux-regardant-travers-doigts_839833-9871.jpg?w=900" alt="" />
                  </div>
-                 <h3 className='business__cards__title'>Nettoyage espaces extérieures</h3>
-                 <p>C'est vous le chef ! Livrez avec <strong>Délices House</strong> pour gagner des revenus compétitifs en toute flexibilité et liberté.</p>
-                 <button className='btn__join'>Rejoignez-nous</button>
+                 <h3 className='business__cards__title'>Nettoyage Résidentiel</h3>
+                 <ul>
+                    <li>Nettoyage régulier des surfaces/depoussierages/aspirations</li>
+                    <li>Nettoyage cuisine/chambres/salle d'eau</li>
+                 </ul>
+                 <p>A partir de <strong className='prestations__price'>100 000 FCFA/Mois</strong></p>
+                 <button className='btn__contact'>Contactez-nous</button>
                 </div>
 
-                <div className='business__cards'>
+                <div className='prestations__cards'>
                  <div className='business__cards__images'>
-                 <img src="https://img.freepik.com/vecteurs-libre/nettoyeurs-produits-entretien_18591-52068.jpg?w=740&t=st=1703114901~exp=1703115501~hmac=1c43be80286995f99a52d9f7400680683e3ae05276996deee0f23879f5b1c140" alt="" />
+                 <img src="https://img.freepik.com/photos-gratuite/plein-coup-homme-poussant-bouton-ascenseur_23-2149345535.jpg?w=900&t=st=1704670183~exp=1704670783~hmac=6174f883faaaa4bb99f3a3661732507499a5b2197cba1fb1107f0dc8fdc562ef" alt="" />
                  </div>
-                 <h3 className='business__cards__title'>Nettoyage Facade</h3>
-                 <p>C'est vous le chef ! Livrez avec <strong>Délices House</strong> pour gagner des revenus compétitifs en toute flexibilité et liberté.</p>
-                 <button className='btn__join'>Rejoignez-nous</button>
-                </div>
-
-                <div className='business__cards'>
-                 <div className='business__cards__images'>
-                 <img src="https://img.freepik.com/photos-premium/main-tenant-variation-objet_53876-75673.jpg?w=996" alt="" />
-                 </div>
-                 <h3 className='business__cards__title'>Nettoyage après évènement </h3>
-                 <p>C'est vous le chef ! Livrez avec <strong>Délices House</strong> pour gagner des revenus compétitifs en toute flexibilité et liberté.</p>
-                 <button className='btn__join'>Rejoignez-nous</button>
-                </div>
-
-                <div className='business__cards'>
-                 <div className='business__cards__images'>
-                  <img src="https://img.freepik.com/vecteurs-libre/illustration-concept-service-nettoyage_114360-12701.jpg?w=900&t=st=1703115859~exp=1703116459~hmac=e066b01c3cb962c1ce38a7baafc341f238936eb5538523eddb5bcd373bf2650b" alt="" />
-                 </div>
-                 <h3 className='business__cards__title'>Nettoyage spécifique </h3>
-                 <p>C'est vous le chef ! Livrez avec <strong>Délices House</strong> pour gagner des revenus compétitifs en toute flexibilité et liberté.</p>
-                 <button className='btn__join'>Rejoignez-nous</button>
+                 <h3 className='business__cards__title'>Nettoyage Bureau</h3>
+                 <ul>
+                    <li>Nettoyage bureaux/local archives</li>
+                    <li>Nettoyage sols/meubles/vitres</li>
+                 </ul>
+                 <p>A partir de <strong className='prestations__price'>150 000 FCFA/Mois</strong></p>
+                 <button className='btn__contact'>Contactez-nous</button>
                 </div>
 
               </div>
+              <div className='btn__section'>
+               <Link to='/Nos__prestations'> <button className='btn__section__details'> Voir plus <i className="fa-solid fa-arrow-right"></i> </button></Link>
+              </div>
 
           </div>
+          <div className="question--part">
+            <div className="question--part--content">
+             <h3 className='question'>À la recherche d'un service de nettoyage, nous proposons différent services !!</h3>
+            <div className="question--part--btn">
+             <Link className='liste' to="/contactez--nous"> 
+              <button className="btn--contact">Contactez-nous !</button>
+             </Link>
+            </div>
+            </div>
+        </div>
+
           <div className='part__newsletter'>
             <div className='part__newsletter__content'>
-              <h2 className='news__header'>-20% sur votre première commande en vous abonnant à nos newsletters !</h2>
-              <p>Ne manquez pas nos excellentes offres & Recevez des offres de tous nos meilleurs vendeurs par e-mail</p>
+              <h3 className='news__header'>Ne manquez pas nos excellentes offres & Recevez des offres de tous nos meilleurs par e-mail !</h3>
                 <div className='news__container'>
                       <div className='news__container__content'>
-                      <div className="'news__container__input">
+                      {/* <div className="news__container__input">
                     <select class="form-select" aria-label="Default select example">
                       <option selected>Sélectionnez votre ville</option>
                       <option value="1">Abidjan</option>
                     </select>
-                    </div>
-                    <div class="form-floating col-md-3">
+                    </div> */}
+                    <div class="form-floating col-md-7">
                       <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"/>
                       <label for="floatingInput">Addresse email</label>
                     </div>

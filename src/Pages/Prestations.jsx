@@ -11,7 +11,7 @@ export default function Prestations  () {
         <div className="container">
         <div className='section--business--content'>
           <h3 className='section--oportunity--title'>Nos offres de prestations </h3>
-          <div className='section--business--description'>
+          {/* <div className='section--business--description'>
                <p className='desc'><strong> Tarifications :</strong>
                Les tarifs de nettoyage pour une société en Côte d'Ivoire varient en fonction de plusieurs facteurs, tels que la taille de la société, la nature de ses locaux, la fréquence des services de nettoyage, et les services spécifiques requis. Les entreprises de nettoyage établissent généralement leurs tarifs en tenant compte de ces critères.
                 Pour obtenir un devis précis, il est recommandé de contacter plusieurs entreprises de nettoyage locales et de discuter de vos besoins spécifiques. Les entreprises peuvent effectuer une évaluation sur place pour déterminer la complexité de la tâche et établir un tarif en conséquence.
@@ -29,11 +29,11 @@ export default function Prestations  () {
                 <p className='desc'><strong>Durée du contrat : </strong> Certains contrats de nettoyage offrent des tarifs dégressifs en fonction de la durée d'engagement.
                     Il est important de discuter en détail avec les entreprises de nettoyage et de clarifier tous les aspects du contrat, y compris les produits de nettoyage utilisés, les heures d'intervention, et toute condition spécifique. Cela vous permettra d'obtenir un service adapté à vos besoins tout en respectant votre budget.
                     </p>
-            </div>
+            </div> */}
               <div className='section__business__presentation'>
                 <div className='prestations__cards'>
                  <div className='business__cards__images'>
-                 <img src="https://img.freepik.com/vecteurs-libre/service-menage-menage_18591-52069.jpg?t=st=1703114901~exp=1703115501~hmac=8bc6e97bceabd4737db0cc4fabb36c385460e98e8a222ded8db57a8a0940ed30" alt="" />
+                 <img src="https://img.freepik.com/photos-gratuite/femme-afro-tenant-seau-articles-nettoyage_58466-11246.jpg?w=900&t=st=1704670107~exp=1704670707~hmac=929e46f2fc639fafd1277c0cf95ef0996b4d7cc7ca033b680c48bba9c5de7ae4" alt="" />
                  </div>
                  <h3 className='business__cards__title'>Nettoyage Grand ménage</h3>
                  <ul>
@@ -48,7 +48,7 @@ export default function Prestations  () {
 
                 <div className='prestations__cards'>
                  <div className='business__cards__images'>
-                 <img src="https://img.freepik.com/vecteurs-libre/service-nettoyage-isometrique-ensemble-images-isolees-produits-nettoyants-detergents-aspirateurs-personnes-uniforme_1284-32172.jpg?w=740&t=st=1703115721~exp=1703116321~hmac=08656ff564b3f3902abfa5513b00a628ff7cb1e03642f39b8cfe6c98dab82743" alt="" />
+                 <img src="https://img.freepik.com/photos-gratuite/sourire-tenant-pointe-vers-seau-outils-nettoyage-jeune-homme-nettoyeur-afro-americain-uniforme-gants-isoles-fond-vert_141793-135154.jpg?w=900&t=st=1704670847~exp=1704671447~hmac=3489c62a4bff1c7551d78dcd0d202b408ee367f2513effa69aef59bf3678edcd" alt="" />
                  </div>
                  <h3 className='business__cards__title'>Nettoyage Standard</h3>
                  <ul>
@@ -63,7 +63,7 @@ export default function Prestations  () {
 
                 <div className='prestations__cards'>
                  <div className='business__cards__images'>
-                 <img src="https://img.freepik.com/vecteurs-libre/nettoyant-produits-entretien_18591-52060.jpg?t=st=1703114901~exp=1703115501~hmac=9f73b0b831d1aa27a14c63ce01e4b561b597d76e2baca404da9f6b49636244f7" alt="" />
+                 <img src="https://img.freepik.com/photos-premium/femme-afro-americaine-aux-cheveux-tresses-portant-tablier-tenant-produits-nettoyage-souriant-heureux-faisant-signe-ok-main-yeux-regardant-travers-doigts_839833-9871.jpg?w=900" alt="" />
                  </div>
                  <h3 className='business__cards__title'>Nettoyage Résidentiel</h3>
                  <ul>
@@ -76,7 +76,7 @@ export default function Prestations  () {
 
                 <div className='prestations__cards'>
                  <div className='business__cards__images'>
-                 <img src="https://img.freepik.com/vecteurs-libre/service-nettoyage-professionnel-concept-couleur-isometrique-quatre-nettoyeurs-nettoient-fenetres-essuient-poussiere-aspirent-sols-dans-illustration-appartement-du-client_1284-65943.jpg?w=826&t=st=1703115112~exp=1703115712~hmac=54d3f8bf1d7efe6080e2921b8e62b592d726b36f679594c4e4a7694cd7588ee9" alt="" />
+                 <img src="https://img.freepik.com/photos-gratuite/plein-coup-homme-poussant-bouton-ascenseur_23-2149345535.jpg?w=900&t=st=1704670183~exp=1704670783~hmac=6174f883faaaa4bb99f3a3661732507499a5b2197cba1fb1107f0dc8fdc562ef" alt="" />
                  </div>
                  <h3 className='business__cards__title'>Nettoyage Bureau</h3>
                  <ul>
@@ -89,7 +89,7 @@ export default function Prestations  () {
 
                 <div className='prestations__cards'>
                  <div className='business__cards__images'>
-                 <img src="https://img.freepik.com/vecteurs-libre/sertie-quatre-compositions-isolees-nettoyeurs-gribouillent-personnages-humains-appareils-professionnels-detergents-chimiques-illustration-vectorielle_1284-68543.jpg?w=996&t=st=1703115067~exp=1703115667~hmac=9046d8868ce5fb0b0912628602c1460ed790bfbf692fa62bd3b7805a9a164200" alt="" />
+                 <img src="https://img.freepik.com/photos-premium/jardinier-tondre-herbe-faux-motorisee-dans-jardin_835648-119.jpg?w=900" alt="" />
                  </div>
                  <h3 className='business__cards__title'>Nettoyage espaces extérieures</h3>
                  <ul>
@@ -102,7 +102,7 @@ export default function Prestations  () {
 
                 <div className='prestations__cards'>
                  <div className='business__cards__images'>
-                 <img src="https://img.freepik.com/vecteurs-libre/nettoyeurs-produits-entretien_18591-52068.jpg?w=740&t=st=1703114901~exp=1703115501~hmac=1c43be80286995f99a52d9f7400680683e3ae05276996deee0f23879f5b1c140" alt="" />
+                 <img src="https://img.freepik.com/photos-gratuite/male-adulte-masque-nettoyage-domicile_23-2148563563.jpg?w=900&t=st=1704670346~exp=1704670946~hmac=c8618096971dcb97a2dbc458a8e589be1ffc0aa1ed3a4877e1efc926592657a1" alt="" />
                  </div>
                  <h3 className='business__cards__title'>Nettoyage Facade</h3>
                  <ul>
@@ -115,7 +115,7 @@ export default function Prestations  () {
 
                 <div className='prestations__cards'>
                  <div className='business__cards__images'>
-                 <img src="https://img.freepik.com/photos-premium/main-tenant-variation-objet_53876-75673.jpg?w=996" alt="" />
+                 <img src="https://img.freepik.com/photos-gratuite/plein-coup-hommes-portant-equipement_23-2149345538.jpg?w=900&t=st=1704670469~exp=1704671069~hmac=453133eec6278ba2c93d001a6d23e18fc8b6f4e98397f81c43b8b55691612d3f" alt="" />
                  </div>
                  <h3 className='business__cards__title'>Nettoyage après évènement </h3>
                  <ul>
@@ -128,7 +128,7 @@ export default function Prestations  () {
 
                 <div className='prestations__cards'>
                  <div className='business__cards__images'>
-                  <img src="https://img.freepik.com/vecteurs-libre/illustration-concept-service-nettoyage_114360-12701.jpg?w=900&t=st=1703115859~exp=1703116459~hmac=e066b01c3cb962c1ce38a7baafc341f238936eb5538523eddb5bcd373bf2650b" alt="" />
+                  <img src="https://img.freepik.com/photos-premium/asiatique-travailleur-nettoyage-sable-lavage-exterieur-passerelle_30478-3047.jpg?w=900" alt="" />
                  </div>
                  <h3 className='business__cards__title'>Nettoyage spécifique </h3>
                  <ul>
@@ -138,6 +138,19 @@ export default function Prestations  () {
                  <button className='btn__contact'>Contactez-nous</button>
                 </div>
 
+                  
+                <div className='prestations__cards'>
+                 <div className='business__cards__images'>
+                  <img src="https://img.freepik.com/photos-premium/gros-plan-femme-menage-tenant-aspirateur-lavage-moderne-nettoyant-canape-sale-tache_130111-6401.jpg?w=900" alt="" />
+                 </div>
+                 <h3 className='business__cards__title'>Nettoyage Simples </h3>
+                 <ul>
+                    <li>Nettoyage des moquettes/tapis</li>
+                    <li>Nettoyage des fauteils</li>
+                 </ul>
+                 <p>A partir de <strong className='prestations__price'>10 000 FCFA/prestations</strong></p>
+                 <button className='btn__contact'>Contactez-nous</button>
+                </div>
               </div>
 
           </div>
