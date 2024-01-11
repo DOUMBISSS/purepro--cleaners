@@ -39,7 +39,7 @@ export default function Contact () {
     <div>
         <Navbar />
         <div className="main--contact">
-            <h1 className='header__contact'>Contactez l'Agence</h1>
+            <h1 className='header__contact'>Contactez-nous</h1>
             <h5 className='header__contact'>Remplissez notre formulaire de contact</h5>
             <div className="main--contact--content">
                 <div className="main--contact--content--left">
@@ -71,7 +71,7 @@ export default function Contact () {
                   <p>Adresse : Cocody Angré 8e Tranche</p>
                   <p>Tel : +225 07 77 88 00 82</p>
                   <p> E-mail : info@pureprocleaners.ci</p>
-                  <p>site web : www.pureprocleaners.ci</p>
+                  <p>Site web : www.pureprocleaners.ci</p>
                     </div>
                 </div>
             </div>

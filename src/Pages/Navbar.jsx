@@ -53,11 +53,12 @@ function Navbar ({search,setSearch}) {
          <div className={display ? "sidebar show-sidebar" : "sidebar"}>
           <div className='sidebar--menu'>
             <div className='btn--close--sidebar' onClick={affi}>X</div>
-                  <p><Link className='liste' to="/">Accueil</Link></p>
-                  <p><Link className='liste' to="/louer">Locations</Link></p>
-                  <p><Link className='liste' to="/Nos--realisations">Nos réalisations</Link></p>
-                  <p><Link className='liste' to="/contact">Contacts</Link></p>
-                  <p><Link className='liste' to="/about">L'agence</Link></p>
+            <Link className='liste' to="/"><p>Accueil</p></Link>
+              <Link className='liste' to="/Qui--sommes-nous" ><p>Qui sommes-nous ?</p></Link>
+              {/* <Link className='liste' to="/Notre--actualité"><p>Actualités</p></Link> */}
+              <Link className='liste' to="/Nos__prestations"><p>Nos prestations</p></Link>
+              {/* <Link className='liste' to="/obtenir_devis"><p>Devis</p></Link> */}
+              <Link className='liste' to="/contactez--nous"><p>Contactez-nous</p></Link>
                   {/* <form>
                     <input className="form-control me-2" type="text" placeholder="Search" />
                   </form> */}
