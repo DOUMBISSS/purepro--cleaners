@@ -40,7 +40,7 @@ export default function Presentation  () {
                         </p>
 
                         <p className='desc'> <strong>Engagement envers la durabilité : </strong>
-                        <strong>PurePro Cleaners</strong> Services est dédié à la durabilité environnementale. Nous utilisons des produits de nettoyage écologiques et 
+                        <strong>PurePro Cleaners</strong> est dédié à la durabilité environnementale. Nous utilisons des produits de nettoyage écologiques et 
                             adoptons des pratiques respectueuses de l'environnement dans toutes nos opérations.
                             </p>
 

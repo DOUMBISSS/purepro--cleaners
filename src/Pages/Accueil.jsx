@@ -67,7 +67,7 @@ const showCart =()=>{
                 <div className='container--presentation--left'>
                     <h5 className='present--header'>Présentation de </h5>
                     <h3 className='present--title'>PurePro Cleaners</h3>
-                    <p> <strong>PurePro Cleaners</strong> Services est une société de nettoyage 
+                    <p> <strong>PurePro Cleaners</strong> est une société de nettoyage 
                       professionnelle spécialisée dans la prestation de services de nettoyage de qualité pour les entreprises,
                        les institutions et les particuliers en Côte d'Ivoire. Forts de notre engagement envers l'excellence, 
                        nous offrons une gamme complète de services de nettoyage pour répondre aux besoins divers de nos clients. </p>
@@ -166,17 +166,17 @@ const showCart =()=>{
             </div>
         </div>
 
-          <div className='part__newsletter'>
+          {/* <div className='part__newsletter'>
             <div className='part__newsletter__content'>
               <h3 className='news__header'>Ne manquez pas nos excellentes offres & Recevez des offres de tous nos meilleurs par e-mail !</h3>
                 <div className='news__container'>
                       <div className='news__container__content'>
-                      {/* <div className="news__container__input">
+                      <div className="news__container__input">
                     <select class="form-select" aria-label="Default select example">
                       <option selected>Sélectionnez votre ville</option>
                       <option value="1">Abidjan</option>
                     </select>
-                    </div> */}
+                    </div>
                     <div class="form-floating col-md-7">
                       <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"/>
                       <label for="floatingInput">Addresse email</label>
@@ -185,8 +185,7 @@ const showCart =()=>{
                       </div>
                 </div>
             </div>
-
-          </div> 
+          </div>  */}
           <Footer/>
         </div>
 

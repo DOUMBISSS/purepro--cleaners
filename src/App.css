@@ -182,7 +182,8 @@ span{
 .part__newsletter{
   width: 100%;
   padding: 1rem;
-  background-color:#f0c14b;
+  background-color: rgb(15, 52, 90);
+  /* background-color:#f0c14b; */
   display: flex;
   align-items: center;
   justify-content: center;
