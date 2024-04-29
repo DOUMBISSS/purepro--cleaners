@@ -21,7 +21,7 @@ export default function Contact () {
       number,
       content,
     }
-    fetch('https://mayedo.onrender.com/email',{
+    fetch('https://back-purepro.onrender.com/email',{
       method:"POST",
       headers :{'Content-Type':"application/json"},
       body:JSON.stringify(data)
@@ -50,7 +50,7 @@ export default function Contact () {
                       <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value={name} onChange={(e) => setName(e.target.value)}/>
                     </div>
                     <div className="mb-3">
-                      <label htmlFor="exampleFormControlInput1" className="form-label">Email address</label>
+                      <label htmlFor="exampleFormControlInput1" className="form-label">Email</label>
                       <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" value={email} onChange={(e) => setEmail(e.target.value)}/>
                     </div>
                     <div className="mb-3">

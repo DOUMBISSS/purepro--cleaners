@@ -59,9 +59,6 @@ function Navbar ({search,setSearch}) {
               <Link className='liste' to="/Nos__prestations"><p>Nos prestations</p></Link>
               {/* <Link className='liste' to="/obtenir_devis"><p>Devis</p></Link> */}
               <Link className='liste' to="/contactez--nous"><p>Contactez-nous</p></Link>
-                  {/* <form>
-                    <input className="form-control me-2" type="text" placeholder="Search" />
-                  </form> */}
           </div>
     </div>
 

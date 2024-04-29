@@ -35,32 +35,9 @@ const showCart =()=>{
 
                <Navbar/>
             <div className='main--part--container'>
-<div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://img.freepik.com/photos-premium/couple-nettoyeurs-professionnels-restent-ensemble-dans-cuisine-contemporaine-detergents-maison_141188-7906.jpg?w=900" class="d-block w-100" alt="..." />
-    </div>
-    <div class="carousel-item">
-      <img src="https://img.freepik.com/photos-premium/couple-heureux-nettoyeurs-professionnels-se-reposant-dans-canape-apres-avoir-nettoye-cuisine_141188-7869.jpg?w=900" class="d-block w-100" alt="..." />
-    </div>
-    <div class="carousel-item">
-      <img src="https://img.freepik.com/photos-premium/nettoyeurs-multiculturels-heureux-regardant-camera-alors-qu-ils-se-tiennent-produits-nettoyage-au-bureau_132358-31834.jpg?w=1060" class="d-block w-100" alt="..." />
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-                </div>
+              <div className='main--part--container--image'>
+                <img src="@.jpg" alt="" />
+              </div>
             </div>
             <div className='container'>
               <div className='container--presentation'>
@@ -83,7 +60,7 @@ const showCart =()=>{
                 </div>
                 <div className='container--presentation--right'>
                     <div className='container--presentation--right--box'>
-                        <img src="https://img.freepik.com/photos-premium/couple-nettoyeurs-professionnels-restent-ensemble-dans-cuisine-contemporaine-detergents-maison_141188-7906.jpg?w=900" alt="" />
+                        <img src="https://img.freepik.com/photos-gratuite/homme-nettoyant-balustrade-chiffon_23-2149345526.jpg?t=st=1711639453~exp=1711643053~hmac=61b91c19d32e580470fae24d9181f39e5af71458f164c916894bb196e9ee1d03&w=900" alt="" />
                     </div>
                 </div>
               </div>
@@ -129,7 +106,7 @@ const showCart =()=>{
                  </div>
                  <h3 className='business__cards__title'>Nettoyage Résidentiel</h3>
                  <ul>
-                    <li>Nettoyage régulier des surfaces/depoussierages/aspirations</li>
+                    <li>Nettoyage régulier des surfaces/depoussierages</li>
                     <li>Nettoyage cuisine/chambres/salle d'eau</li>
                  </ul>
                  <p>A partir de <strong className='prestations__price'>100 000 FCFA/Mois</strong></p>
@@ -142,7 +119,7 @@ const showCart =()=>{
                  </div>
                  <h3 className='business__cards__title'>Nettoyage Bureau</h3>
                  <ul>
-                    <li>Nettoyage bureaux/local archives</li>
+                    <li>Nettoyage régulier bureaux/local archives</li>
                     <li>Nettoyage sols/meubles/vitres</li>
                  </ul>
                  <p>A partir de <strong className='prestations__price'>150 000 FCFA/Mois</strong></p>
@@ -150,9 +127,9 @@ const showCart =()=>{
                 </div>
 
               </div>
-              <div className='btn__section'>
+              {/* <div className='btn__section'>
                <Link to='/Nos__prestations'> <button className='btn__section__details'> Voir plus <i className="fa-solid fa-arrow-right"></i> </button></Link>
-              </div>
+              </div> */}
 
           </div>
           <div className="question--part">
