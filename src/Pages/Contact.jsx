@@ -45,10 +45,10 @@ export default function Contact () {
                 <div className="main--contact--content--left">
                   <div className='form__container'>
                   <form onSubmit={SubmitForm}>
-                    <div className="mb-3">
+                    {/* <div className="mb-3">
                       <label htmlFor="exampleInputEmail1" className="form-label">Noms & Prénoms</label>
                       <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value={name} onChange={(e) => setName(e.target.value)}/>
-                    </div>
+                    </div> */}
                     <div className="mb-3">
                       <label htmlFor="exampleFormControlInput1" className="form-label">Email</label>
                       <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" value={email} onChange={(e) => setEmail(e.target.value)}/>
@@ -57,6 +57,11 @@ export default function Contact () {
                       <label htmlFor="exampleFormControlInput1" className="form-label">Numéro de téléphone</label>
                       <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Numero de telephone" value={number} onChange={(e) => setNumber(e.target.value)}/>
                     </div>
+                    {/* <select class="form-select form-select-sm" aria-label="Small select example">
+                      <option selected>Choisir</option>
+                      <option value="1">Société</option>
+                      <option value="2">Particulier</option>
+                    </select> */}
                     <div className="mb-3">
                       <label htmlFor="exampleFormControlTextarea1" className="form-label">Votre message</label>
                       <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" value={content} onChange={(e) => setContent(e.target.value)}></textarea>
