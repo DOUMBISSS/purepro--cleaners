@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Footer from '../Pages/Footer';
 import {Link} from 'react-router-dom';
 import Navbar from './Navbar';
+import ContactModal from './ContactModal';
 
 export default function Prestations  () {
+   const [contactModal,setcontactModal]=useState("")
+
+   const handleContactModal = ()=>{
+      setcontactModal(true)
+  }
             
     return (
     <div>
@@ -30,6 +36,7 @@ export default function Prestations  () {
                     Il est important de discuter en détail avec les entreprises de nettoyage et de clarifier tous les aspects du contrat, y compris les produits de nettoyage utilisés, les heures d'intervention, et toute condition spécifique. Cela vous permettra d'obtenir un service adapté à vos besoins tout en respectant votre budget.
                     </p>
             </div> */}
+            <ContactModal contactModal={contactModal} setcontactModal={setcontactModal}/>
               <div className='section__business__presentation'>
                 <div className='prestations__cards'>
                  <div className='business__cards__images'>
@@ -43,7 +50,7 @@ export default function Prestations  () {
                     <li>Nettoyages des surfaces/dépoussierage</li>
                  </ul>
                  <p>A partir de <strong className='prestations__price'>100 000 FCFA/prestations</strong></p>
-                 <button className='btn__contact'>Contactez-nous</button>
+                 <button className='btn__contact' onClick={handleContactModal}>Contactez-nous</button>
                 </div>
 
                 <div className='prestations__cards'>
@@ -58,7 +65,7 @@ export default function Prestations  () {
                     <li>Nettoyages des surfaces/dépoussierage</li>
                  </ul>
                  <p>A partir de <strong className='prestations__price'>120 000 FCFA/Mois</strong></p>
-                 <button className='btn__contact'>Contactez-nous</button>
+                 <button className='btn__contact'onClick={handleContactModal}>Contactez-nous</button>
                 </div>
 
                 <div className='prestations__cards'>
@@ -71,7 +78,7 @@ export default function Prestations  () {
                     <li>Nettoyage cuisine/chambres/salle d'eau</li>
                  </ul>
                  <p>A partir de <strong className='prestations__price'>100 000 FCFA/Mois</strong></p>
-                 <button className='btn__contact'>Contactez-nous</button>
+                 <button className='btn__contact'onClick={handleContactModal}>Contactez-nous</button>
                 </div>
 
                 <div className='prestations__cards'>
@@ -84,7 +91,7 @@ export default function Prestations  () {
                     <li>Nettoyage sols/meubles/vitres</li>
                  </ul>
                  <p>A partir de <strong className='prestations__price'>150 000 FCFA/Mois</strong></p>
-                 <button className='btn__contact'>Contactez-nous</button>
+                 <button className='btn__contact'onClick={handleContactModal}>Contactez-nous</button>
                 </div>
 
                 <div className='prestations__cards'>
@@ -97,10 +104,10 @@ export default function Prestations  () {
                     <li>Elimination des débris extérieurs</li>
                  </ul>
                  <p>A partir de <strong className='prestations__price'>100 000 FCFA/prestations</strong></p>
-                 <button className='btn__contact'>Contactez-nous</button>
+                 <button className='btn__contact'onClick={handleContactModal}>Contactez-nous</button>
                 </div>
 
-                <div className='prestations__cards'>
+                {/* <div className='prestations__cards'>
                  <div className='business__cards__images'>
                  <img src="https://img.freepik.com/photos-gratuite/male-adulte-masque-nettoyage-domicile_23-2148563563.jpg?w=900&t=st=1704670346~exp=1704670946~hmac=c8618096971dcb97a2dbc458a8e589be1ffc0aa1ed3a4877e1efc926592657a1" alt="" />
                  </div>
@@ -110,20 +117,20 @@ export default function Prestations  () {
                     <li>Nettoyage des murs intérieurs/extérieurs</li>
                  </ul>
                  <p>A partir de <strong className='prestations__price'>250 000 FCFA/prestations</strong></p>
-                 <button className='btn__contact'>Contactez-nous</button>
-                </div>
+                 <button className='btn__contact' onClick={handleContactModal}>Contactez-nous</button>
+                </div> */}
 
                 <div className='prestations__cards'>
                  <div className='business__cards__images'>
                  <img src="https://img.freepik.com/photos-gratuite/plein-coup-hommes-portant-equipement_23-2149345538.jpg?w=900&t=st=1704670469~exp=1704671069~hmac=453133eec6278ba2c93d001a6d23e18fc8b6f4e98397f81c43b8b55691612d3f" alt="" />
                  </div>
-                 <h3 className='business__cards__title'>Nettoyage après évènement </h3>
+                 <h3 className='business__cards__title'>Nettoyage évènemential </h3>
                  <ul>
                     <li>Nettoyage après des réunions/conférences/évènements/receptions...</li>
                     <li>Gestion rapide des déchets générés lors d'évènements</li>
                  </ul>
                  <p>A partir de <strong className='prestations__price'>100 000 FCFA/prestations</strong></p>
-                 <button className='btn__contact'>Contactez-nous</button>
+                 <button className='btn__contact'onClick={handleContactModal}>Contactez-nous</button>
                 </div>
 
                 <div className='prestations__cards'>
@@ -135,7 +142,7 @@ export default function Prestations  () {
                     <li>Nettoyage des travaux de rénovations/constructions</li>
                  </ul>
                  <p>A partir de <strong className='prestations__price'>100 000 FCFA/prestations</strong></p>
-                 <button className='btn__contact'>Contactez-nous</button>
+                 <button className='btn__contact'onClick={handleContactModal}>Contactez-nous</button>
                 </div>
 
                   
@@ -149,7 +156,7 @@ export default function Prestations  () {
                     <li>Nettoyage des fauteils</li>
                  </ul>
                  <p>A partir de <strong className='prestations__price'>10 000 FCFA/prestations</strong></p>
-                 <button className='btn__contact'>Contactez-nous</button>
+                 <button className='btn__contact'onClick={handleContactModal}>Contactez-nous</button>
                 </div>
               </div>
 
