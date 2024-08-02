@@ -16,25 +16,10 @@ export default function Prestations  () {
         <Navbar />
         <div className="container">
         <div className='section--business--content'>
+        <h3 className='section--oportunity--title'>Nos offres de prestations </h3>
+          {/* <div className='section--business--header'>
+          <img src={`${process.env.PUBLIC_URL}/mains-tenant-outils-solutions-nettoyage.jpg`} alt=""/>
           <h3 className='section--oportunity--title'>Nos offres de prestations </h3>
-          {/* <div className='section--business--description'>
-               <p className='desc'><strong> Tarifications :</strong>
-               Les tarifs de nettoyage pour une société en Côte d'Ivoire varient en fonction de plusieurs facteurs, tels que la taille de la société, la nature de ses locaux, la fréquence des services de nettoyage, et les services spécifiques requis. Les entreprises de nettoyage établissent généralement leurs tarifs en tenant compte de ces critères.
-                Pour obtenir un devis précis, il est recommandé de contacter plusieurs entreprises de nettoyage locales et de discuter de vos besoins spécifiques. Les entreprises peuvent effectuer une évaluation sur place pour déterminer la complexité de la tâche et établir un tarif en conséquence.
-                En général, les tarifs de nettoyage pour une société en Côte d'Ivoire peuvent être calculés en fonction de plusieurs éléments :
-                </p>
-            
-                <p className='desc'><strong>Taille des locaux : </strong> La superficie totale des bureaux, des espaces de travail, et des zones communes.</p>
-
-                <p className='desc'> <strong>Type de nettoyage : </strong> Les services spécifiques requis, tels que le nettoyage des sols, le nettoyage des vitres, le nettoyage des sanitaires, etc.</p>
-
-                <p className='desc'><strong>Fréquence des services : </strong> Si le nettoyage est effectué quotidiennement, hebdomadairement, mensuellement, ou à une autre fréquence.</p>
-
-                <p className='desc'> <strong>Services supplémentaires : </strong> Des services spéciaux tels que le nettoyage après travaux, le nettoyage de moquettes, ou d'autres besoins particuliers.</p>
-
-                <p className='desc'><strong>Durée du contrat : </strong> Certains contrats de nettoyage offrent des tarifs dégressifs en fonction de la durée d'engagement.
-                    Il est important de discuter en détail avec les entreprises de nettoyage et de clarifier tous les aspects du contrat, y compris les produits de nettoyage utilisés, les heures d'intervention, et toute condition spécifique. Cela vous permettra d'obtenir un service adapté à vos besoins tout en respectant votre budget.
-                    </p>
             </div> */}
             <ContactModal contactModal={contactModal} setcontactModal={setcontactModal}/>
               <div className='section__business__presentation'>
@@ -77,7 +62,7 @@ export default function Prestations  () {
                     <li>Nettoyage régulier des surfaces/depoussierages/aspirations</li>
                     <li>Nettoyage cuisine/chambres/salle d'eau</li>
                  </ul>
-                 <p>A partir de <strong className='prestations__price'>100 000 FCFA/Mois</strong></p>
+                 <p>A partir de <strong className='prestations__price'>70 000 FCFA/Mois</strong></p>
                  <button className='btn__contact'onClick={handleContactModal}>Contactez-nous</button>
                 </div>
 
@@ -87,10 +72,10 @@ export default function Prestations  () {
                  </div>
                  <h3 className='business__cards__title'>Nettoyage Bureau</h3>
                  <ul>
-                    <li>Nettoyage bureaux/local archives</li>
+                    <li>Nettoyage bureaux/locaux archives</li>
                     <li>Nettoyage sols/meubles/vitres</li>
                  </ul>
-                 <p>A partir de <strong className='prestations__price'>150 000 FCFA/Mois</strong></p>
+                 <p>A partir de <strong className='prestations__price'>80 000 FCFA/Mois</strong></p>
                  <button className='btn__contact'onClick={handleContactModal}>Contactez-nous</button>
                 </div>
 
@@ -103,7 +88,7 @@ export default function Prestations  () {
                     <li>Nettoyage régulier des espaces extérieures/parkings/terrasses</li>
                     <li>Elimination des débris extérieurs</li>
                  </ul>
-                 <p>A partir de <strong className='prestations__price'>100 000 FCFA/prestations</strong></p>
+                 <p>A partir de <strong className='prestations__price'>10 000 FCFA/prestations</strong></p>
                  <button className='btn__contact'onClick={handleContactModal}>Contactez-nous</button>
                 </div>
 
@@ -150,10 +135,21 @@ export default function Prestations  () {
                  <div className='business__cards__images'>
                   <img src="https://img.freepik.com/photos-premium/gros-plan-femme-menage-tenant-aspirateur-lavage-moderne-nettoyant-canape-sale-tache_130111-6401.jpg?w=900" alt="" />
                  </div>
+                 <h3 className='business__cards__title'>Nettoyage Fauteuils </h3>
+                 <ul>
+                    <li>Nettoyage des fauteils</li>
+                 </ul>
+                 <p>A partir de <strong className='prestations__price'>20 000 FCFA/prestations</strong></p>
+                 <button className='btn__contact'onClick={handleContactModal}>Contactez-nous</button>
+                </div>
+
+                <div className='prestations__cards'>
+                 <div className='business__cards__images'>
+                  <img src="https://img.freepik.com/photos-premium/gros-plan-femme-menage-tenant-aspirateur-lavage-moderne-nettoyant-canape-sale-tache_130111-6401.jpg?w=900" alt="" />
+                 </div>
                  <h3 className='business__cards__title'>Nettoyage Simples </h3>
                  <ul>
                     <li>Nettoyage des moquettes/tapis</li>
-                    <li>Nettoyage des fauteils</li>
                  </ul>
                  <p>A partir de <strong className='prestations__price'>10 000 FCFA/prestations</strong></p>
                  <button className='btn__contact'onClick={handleContactModal}>Contactez-nous</button>

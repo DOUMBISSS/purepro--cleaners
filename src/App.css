@@ -154,8 +154,8 @@ span{
   /* border: 1px solid gainsboro; */
 }
 .container--presentation--right--box{
-  width: 80%;
-  height: 90%;
+  width: 50%;
+  height: 70%;
   border-radius: 0.5rem;
   border: 1px solid gainsboro;
 }
@@ -247,6 +247,25 @@ span{
   margin-top: 1rem;
   /* border: 1px solid coral; */
   /* background-color: rgb(246, 246, 246); */
+}
+.section--business--header{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.section--business--header img{
+  width: 100%;
+  height: 100%;
+}
+.section--oportunity--title{
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  z-index: 10000;
 }
 .section__business__container{
   width: 100%;

@@ -2,6 +2,7 @@ import React from 'react';
 // import Footer from '../Pages/Footer';
 import {Link} from 'react-router-dom';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 export default function Presentation  () {
             
@@ -61,13 +62,13 @@ export default function Presentation  () {
                 </div>
                 <div className='container--presentation--right'>
                     <div className='container--presentation--right--box'>
-                        <img src="https://img.freepik.com/photos-gratuite/rire-tenant-agent-nettoyage-chiffon-jeune-homme-nettoyant-afro-americain-uniforme-gants-isoles-fond-vert_141793-140022.jpg?t=st=1711639967~exp=1711643567~hmac=fd094d331aefeac9de3194c0c488dd429ed0f96ca48ed2053d003b7e5c0a547d&w=996" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/logo.jpg`} alt=""/>
                     </div>
                 </div>
               </div>
 
           </div>
-        {/* <Footer/> */}
+        <Footer/>
     </div>
     );
 }

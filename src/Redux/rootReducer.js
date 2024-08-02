@@ -1,12 +1,8 @@
 import { combineReducers } from "redux";
-import { questionReducer } from "./questionReducer";
-import { connexionReducer } from "./connexionReducer";
-import { categoryReducer } from "./categoryReducer";
+import { prestationReducer } from "./prestationReducer";
 
 
 
 export const rootReducer = combineReducers({
-    questionReducer:questionReducer,
-    connexionReducer :connexionReducer,
-    categoryReducer:categoryReducer
+    prestationReducer:prestationReducer
 })
